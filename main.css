@@ -1,14 +1,12 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding-left: 2px;
+body {
+  background: #1c1a19;
 }
 
-body {
-  position: absolute;
-  width: 375px;
-  height: 590px;
-  background: #1c1a19;
+.main-body {
+  background-image: url("pictures/Group.png");
+  background-position: 240px 270px;
+  background-repeat: no-repeat;
+  height: 570px;
 }
 
 header {
@@ -17,9 +15,14 @@ header {
   justify-content: space-between;
   background: #3c3a39;
 }
+.main {
+  display: flex;
+  flex-direction: column;
+}
 
-h1 {
+.name {
   position: static;
+  text-decoration: none;
   width: 77px;
   height: 24px;
   left: 12px;
@@ -31,7 +34,7 @@ h1 {
   color: #fff;
 }
 
-h2 {
+h1 {
   width: 327px;
   height: 124px;
   margin-left: 24px;
@@ -74,8 +77,6 @@ p {
   display: flex;
   list-style: none;
   margin-left: 24px;
-  width: 200px;
-  height: 40px;
 }
 
 li {
