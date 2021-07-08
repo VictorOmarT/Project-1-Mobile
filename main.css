@@ -15,6 +15,7 @@ header {
   justify-content: space-between;
   background: #3c3a39;
 }
+
 .main {
   display: flex;
   flex-direction: column;
