@@ -57,7 +57,7 @@ h3 {
   color: #fff5e1;
 }
 
-p {
+.prds {
   width: 327px;
   height: 123px;
   margin-left: 24px;
@@ -77,4 +77,109 @@ p {
 
 li {
   margin-right: 15px;
+}
+
+.second-main {
+  display: grid;
+  align-items: center;
+  background: #e5e5e5;
+}
+
+.line {
+  margin-bottom: 80px;
+}
+
+h4 {
+  font-size: 42px;
+  font-weight: lighter;
+}
+
+h5 {
+  font-size: 32px;
+}
+
+.par-black {
+  color: #1c1a19;
+  margin: 0;
+}
+
+.activ-g {
+  background-image: url("pictures/Img Placeholder2.png");
+  background-repeat: no-repeat;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+h6 {
+  font-size: 32px;
+  margin-bottom: 0%;
+  margin-left: 20px;
+  color: #fff;
+}
+
+.text2 {
+  font-size: 16px;
+  margin-bottom: 0%;
+}
+
+.aling {
+  margin-left: 20px;
+}
+
+.button {
+  height: 48px;
+  width: 327px;
+  color: #fff;
+  background-color: #ff6b00;
+  font-size: 17px;
+}
+
+.laspart {
+  align-items: center;
+  background-image: url("pictures/end.png");
+  background-position: 240px 270px;
+  background-repeat: no-repeat;
+  height: 570px;
+}
+
+h2 {
+  color: #ff6b00;
+  font-size: 72px;
+  margin-left: 20px;
+}
+
+.texf {
+  font-size: 16px;
+  color: #fff;
+  margin-left: 20px;
+}
+
+.constys {
+  margin-top: 35px;
+}
+
+.butm {
+  height: 48px;
+  width: 161px;
+  color: #fff;
+  background-color: #ff6b00;
+  margin-left: 20px;
+}
+
+.en {
+  margin-left: 20px;
+}
+
+.endt {
+  font-size: 32px;
+  margin-left: 5px;
+}
+
+.enlase {
+  list-style: none;
+}
+a {
+  font-size: 22px;
+  text-decoration: none;
+  color: #fff;
 }
