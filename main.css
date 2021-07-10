@@ -113,17 +113,12 @@ h5 {
 h6 {
   font-size: 32px;
   margin-bottom: 0%;
-  margin-left: 20px;
   color: #fff;
 }
 
 .text2 {
   font-size: 16px;
   margin-bottom: 0%;
-}
-
-.aling {
-  margin-left: 20px;
 }
 
 .button {
@@ -145,13 +140,11 @@ h6 {
 h2 {
   color: #ff6b00;
   font-size: 72px;
-  margin-left: 20px;
 }
 
 .texf {
   font-size: 16px;
   color: #fff;
-  margin-left: 20px;
 }
 
 .constys {
@@ -163,7 +156,6 @@ h2 {
   width: 161px;
   color: #fff;
   background-color: #ff6b00;
-  margin-left: 20px;
 }
 
 .en {
