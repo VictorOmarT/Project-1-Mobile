@@ -122,22 +122,24 @@
     </section>
     <section class="form">
       <form action="">
-        <legend>
+        <legend class="custom-font form-legend">
           I'm always interested in hearing about new projects, so if you'd like to
           chat please get in touch.
         </legend>
         <ul>
           <li>
             <label for="name"></label>
-            <input type="text" id="name" placeholder="Full Name">
+            <input class="input-text-email custom-font" type="text" id="name" placeholder="Full Name">
           </li>
           <li>
             <label for="mail"></label>
-            <input type="email" id="mail" placeholder="Email Adress">
+            <input class="input-text-email custom-font" type="email" id="mail" placeholder="Email Adress">
           </li>
-          <li>
+          <li class="text-area-container">
             <label for="msg"></label>
-            <textarea name="message" id="msg" cols="30" rows="10" placeholder="Enter Text Here"></textarea>
+            <textarea class="textarea-message custom-font" name="message" id="msg" cols="30" rows="10" placeholder="Enter Text Here">
+            </textarea>
+            <img class="resizer-handle" src="./pictures/text_area/resizer_handle.png" alt="">
           </li>
           <li>
             <button type="submit">Get in touch</button>
