@@ -10,12 +10,18 @@
 
   <body>
     <header class="d-flex">
-      <a href="#" class="name">Victor</a>
-      <nav>
-        <img src="pictures/Enabled.png" alt="menu" />
-      </nav>
+      <div class="left-side-head">
+        <a href="#" class="name">Victor Toraño</a>
+      </div>
+      <div class="righ-side-head">
+        <a href="#" class="name-desk">Porfolio</a>
+        <a href="#" class="name-desk">About</a>
+        <a href="#" class="name-desk">Contact</a>
+        <img src="pictures/Icon-Mail.png" class="name-desk" alt="" />
+        <img src="pictures/Enabled.png" class="only-mob" alt="menu" />
+      </div>
     </header>
-    <section class="main-body">
+    <section class="main-body d-flex">
       <section>
         <h1>Hey There.<br />I’m Victor<br /></h1>
         <h3>I’am a Software Developer</h3>
@@ -120,5 +126,63 @@
         >View Project</a
       >
     </section>
+<<<<<<< Updated upstream
+=======
+    <section class="form">
+      <form>
+        <h2 class="custom-font form-legend">
+          I'm always interested in hearing about new projects, so if you'd like
+          to chat please get in touch.
+        </h2>
+        <ul class="d-flex-colum">
+          <li>
+            <label for="name"></label>
+            <input
+              class="input-text-email custom-font"
+              type="text"
+              id="name"
+              maxlength="30"
+              placeholder="Full Name"
+              required
+            />
+          </li>
+          <li>
+            <label for="mail"></label>
+            <input
+              class="input-text-email custom-font"
+              type="email"
+              id="mail"
+              placeholder="Email Adress"
+              required
+            />
+          </li>
+          <li class="text-area-container">
+            <label for="msg"></label>
+            <textarea
+              class="textarea-message custom-font"
+              name="message"
+              id="msg"
+              maxlength="500"
+              cols="30"
+              rows="10"
+              placeholder="Enter Text Here"
+              required
+            >
+            </textarea>
+            <img
+              class="resizer-handle"
+              src="./pictures/text_area/resizer_handle.png"
+              alt=""
+            />
+          </li>
+          <li>
+            <button class="last-b custom-font" type="submit">
+              Get in touch
+            </button>
+          </li>
+        </ul>
+      </form>
+    </section>
+>>>>>>> Stashed changes
   </body>
 </html>
