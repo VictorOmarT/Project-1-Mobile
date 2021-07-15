@@ -187,8 +187,6 @@ a {
   text-decoration: none;
   color: #fff;
 }
-<<<<<<< Updated upstream
-=======
 
 .form {
   background-color: #fff;
@@ -319,8 +317,15 @@ a {
   .icons {
     flex-direction: column;
     margin-top: 200px;
+    padding: 0px;
     
   }
+
+  .icon-alin {
+    margin-bottom: 20px;
+    margin-right: 50px;
+  }
+
 }
 
 @media (max-width: 425px) {
@@ -328,4 +333,3 @@ a {
     display: none;
   }
 }
->>>>>>> Stashed changes
