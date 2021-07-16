@@ -150,6 +150,7 @@ h6 {
   background-position: 240px 270px;
   background-repeat: no-repeat;
   height: 570px;
+  flex-direction: column;
 }
 
 h2 {
@@ -198,10 +199,16 @@ a {
   margin: 0;
 }
 
+.msmsm {
+  flex-direction: column;
+}
+
 .form-legend {
   color: #172b4d;
   padding-top: 120px;
   margin-bottom: 59px;
+  margin-left: 40px;
+  font-size: 40px;
 }
 
 .input-text-email {
@@ -284,6 +291,7 @@ a {
   flex-direction: column;
   align-items: center;
   list-style: none;
+  margin-left: -60px;
 }
 
 @media (min-width: 1024px) {
@@ -334,7 +342,7 @@ a {
   }
 
   .colum-call {
-  flex-direction: row;
+    flex-direction: row;
   }
 
   .two-row h4 {
@@ -358,7 +366,6 @@ a {
     background-image: url(/pictures/ImgPlaceholder33.png);
     background-repeat: no-repeat;
     margin-left: 10px;
-    
   }
 
   .first-box1 {
@@ -372,6 +379,11 @@ a {
     color: #fff;
     margin-top: 170px;
     margin-left: 15px;
+  }
+
+  .formersd {
+    margin-top: 220px;
+    margin-left: -140px;
   }
 
   p {
@@ -401,6 +413,58 @@ a {
     margin-right: 15px;
     margin-left: 15px;
     margin-bottom: 130px;
+  }
+
+  .enlase {
+    margin-left: -30px;
+  }
+  .laspart {
+    background-image: url(/pictures/gropsd.png);
+    background-position: 100% 60%;
+    background-size: 500px;
+  }
+
+  .Goinlef {
+    margin-right: 500px;
+  }
+
+  .enss {
+    background-image: url("/pictures/Vector4llk.png");
+    background-repeat: no-repeat;
+    background-size: 800px;
+    background-position: 50% 0%;
+  }
+  .coliisa {
+    flex-direction: row;
+  }
+
+  .rifhalig {
+    margin-left: 120px;
+  }
+  .msmsm {
+    flex-direction: row;
+  }
+
+  .achetwo {
+    width: 450px;
+    margin-left: -40px;
+  }
+
+  input {
+    resize: both;
+  }
+
+  .last-b {
+    margin-left: -450px;
+    margin-top: -300px;
+  }
+
+  .form-legend {
+    color: #172b4d;
+    padding-top: 120px;
+    margin-bottom: 59px;
+    margin-left: 40px;
+    font-size: 30px;
   }
 }
 
