@@ -128,7 +128,6 @@ h5 {
 .activ-g {
   background-image: url("pictures/ImgPlaceholder2.png");
   background-repeat: no-repeat;
-  margin-top: 20px;
   margin-bottom: 60px;
 }
 
@@ -385,8 +384,8 @@ a {
     background-repeat: no-repeat;
     margin-left: 5px;
     margin-right: 5px;
-    height: 394px;
-    width: 435px;
+    height: 435px;
+    width: 369px;
   }
 
   h2 {
