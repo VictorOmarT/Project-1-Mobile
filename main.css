@@ -84,6 +84,9 @@ h3 {
   color: #fff;
 }
 
+.desktopboo {
+  display: none;
+}
 .icons {
   display: flex;
   list-style: none;
@@ -180,15 +183,12 @@ h2 {
   color: #fff;
 }
 
-.constys {
- /*  margin-top: 35px; */
-}
-
 .butm {
   height: 48px;
   width: 161px;
   color: #fff;
   background-color: #ff6b00;
+  margin-top: 24px;
 }
 
 .en {
@@ -424,9 +424,6 @@ a {
   }
 
   .enlase {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
     height: 100%;
     margin-top: 45px;
   }
@@ -440,13 +437,6 @@ a {
   .Goinlef {
     margin-right: 500px;
   }
-
-/*   .enss {
-    background-image: url("/pictures/Vector4llk.png");
-    background-repeat: no-repeat;
-    background-size: 800px;
-    background-position: 50% 0%;
-  } */
 
   .coliisa {
     flex-direction: row;
@@ -462,6 +452,7 @@ a {
     margin-left: 5px;
     margin-top: 146px;
     flex-direction: column;
+    margin-right: 176px;
   }
 
   .msmsm {
@@ -503,6 +494,35 @@ a {
 
   .li-with {
     width: 100%;
+  }
+
+  .linksed {
+    margin-bottom: 32px;
+  }
+
+  .img-sicesj {
+    width: 18px;
+    height: 18px;
+  }
+
+  .desktopboo {
+    display: block;
+    background-color: #fff;
+    border-top: 1px solid #fff;
+  }
+
+  .first-box.name-desk {
+    display: none;
+  }
+
+  .icons.icons-rows {
+    flex-direction: row;
+    margin: 0;
+    justify-content: center;
+  }
+
+  .icon-alin {
+    margin-right: 5px;
   }
 }
 
