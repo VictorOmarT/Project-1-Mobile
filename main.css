@@ -214,6 +214,7 @@ a {
   width: 100%;
   margin: 0;
 }
+
 .msmsm {
   flex-direction: column;
 }
@@ -369,6 +370,7 @@ a {
     background-repeat: no-repeat;
     font-size: 35px;
   }
+
   .line {
     display: none;
   }
@@ -390,6 +392,7 @@ a {
     margin-left: 5px;
     margin-right: 5px;
   }
+
   h2 {
     font-size: 32px;
     color: #fff;
@@ -434,6 +437,7 @@ a {
   .enlase {
     margin-left: -30px;
   }
+
   .laspart {
     background-image: url(/pictures/gropsd.png);
     background-position: 100% 60%;
@@ -450,6 +454,7 @@ a {
     background-size: 800px;
     background-position: 50% 0%;
   }
+
   .coliisa {
     flex-direction: row;
   }
@@ -457,13 +462,14 @@ a {
   .rifhalig {
     margin-left: 120px;
   }
+  
   .msmsm {
     flex-direction: row;
   }
 
   .achetwo {
-    width: 450px;
-    margin-left: -40px;
+    width: 721px;
+    margin-left: -160px;
   }
 
   input {
@@ -488,3 +494,4 @@ a {
   .name-desk {
     display: none;
   }
+}
