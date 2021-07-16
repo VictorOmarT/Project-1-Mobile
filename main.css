@@ -87,6 +87,7 @@ h3 {
 .desktopboo {
   display: none;
 }
+
 .icons {
   display: flex;
   list-style: none;
@@ -340,11 +341,6 @@ a {
     margin-left: 80px;
   }
 
-  .icon-alin {
-    margin-bottom: 20px;
-    margin-right: 50px;
-  }
-
   .colum-call {
     flex-direction: row;
   }
@@ -523,6 +519,7 @@ a {
 
   .icon-alin {
     margin-right: 5px;
+    margin-bottom: 20px;
   }
 }
 
