@@ -317,11 +317,6 @@ a {
     margin: 154px;
   }
 
-  .name-desk {
-/*     margin-right: 15px;
-    font-size: 15px; */
-  }
-
   .only-mob {
     display: none;
   }
@@ -386,6 +381,9 @@ a {
     margin-right: 5px;
     height: 435px;
     width: 369px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
   }
 
   h2 {
@@ -408,29 +406,26 @@ a {
 
   .last-b {
     background-color: #f55800;
-    width: 300px;
-    height: 58px;
+    width: 200px;
+    height: 48px;
     padding: 12px;
     color: #fff;
     border: none;
     font-weight: bold;
     font-size: 17px;
     line-height: 24px;
-    margin-bottom: 30px;
-    margin-left: -450px;
-    margin-top: -300px;
+    margin-left: -300px;
   }
 
   .box-type-3 {
     background-image: url("/pictures/ImgPlaceholder55.png");
     background-repeat: no-repeat;
-/*     margin-right: 15px;
-    margin-left: 15px; */
     margin-bottom: 130px;
   }
 
   .enlase {
-    margin-left: -30px;
+    /* margin-left: -30px; */
+    
   }
 
   .laspart {
@@ -452,6 +447,7 @@ a {
 
   .coliisa {
     flex-direction: row;
+    height: 604px;
   }
 
   .rifhalig {
@@ -465,7 +461,6 @@ a {
 
   .achetwo {
     width: 455px;
-   /*  margin-left: -160px; */
   }
 
   input {
@@ -496,6 +491,9 @@ a {
     width: 648px;
   }
 
+  .li-with {
+    width: 100%;
+  }
 }
 
 @media (max-width: 425px) {
