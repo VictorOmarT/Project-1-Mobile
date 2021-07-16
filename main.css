@@ -319,8 +319,8 @@ a {
   }
 
   .name-desk {
-    margin-right: 15px;
-    font-size: 15px;
+/*     margin-right: 15px;
+    font-size: 15px; */
   }
 
   .only-mob {
@@ -385,6 +385,8 @@ a {
     background-repeat: no-repeat;
     margin-left: 5px;
     margin-right: 5px;
+    height: 394px;
+    width: 435px;
   }
 
   h2 {
@@ -423,8 +425,8 @@ a {
   .box-type-3 {
     background-image: url("/pictures/ImgPlaceholder55.png");
     background-repeat: no-repeat;
-    margin-right: 15px;
-    margin-left: 15px;
+/*     margin-right: 15px;
+    margin-left: 15px; */
     margin-bottom: 130px;
   }
 
