@@ -99,6 +99,8 @@ li {
   display: grid;
   align-items: center;
   background: #e5e5e5;
+  justify-content: center;
+  margin-top: 120px;
 }
 
 .line {
@@ -302,15 +304,6 @@ a {
   color: #f4f1f0;
 }
 
-.d-flex-colum {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  list-style: none;
-  /* margin-left: -60px; */
-  width: 648px;
-}
-
 @media (min-width: 1024px) {
   header {
     height: 53px;
@@ -369,6 +362,7 @@ a {
     background-size: 500px;
     background-repeat: no-repeat;
     font-size: 35px;
+    margin-top: 120px;
   }
 
   .line {
@@ -465,6 +459,7 @@ a {
 
   .msmsm {
     flex-direction: row;
+    justify-content: flex-start;
   }
 
   .achetwo {
@@ -491,6 +486,15 @@ a {
   .textarea-message {
     width: 100%;
   }
+
+  .d-flex-colum {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    width: 648px;
+  }
+
 }
 
 @media (max-width: 425px) {
