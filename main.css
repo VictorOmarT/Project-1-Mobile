@@ -307,7 +307,6 @@ a {
   flex-direction: column;
   align-items: center;
   list-style: none;
-
   margin-left: -60px;
 }
 
@@ -346,7 +345,7 @@ a {
   .icons {
     flex-direction: column;
     margin-top: 200px;
-    padding: 0px;
+    padding: 1px;
   }
 
   .marg-lefts {
@@ -423,7 +422,8 @@ a {
     font-size: 17px;
     line-height: 24px;
     margin-bottom: 30px;
-    margin-top: 377px;
+    margin-left: -450px;
+    margin-top: -300px;
   }
 
   .box-type-3 {
@@ -462,7 +462,7 @@ a {
   .rifhalig {
     margin-left: 120px;
   }
-  
+
   .msmsm {
     flex-direction: row;
   }
@@ -474,11 +474,6 @@ a {
 
   input {
     resize: both;
-  }
-
-  .last-b {
-    margin-left: -450px;
-    margin-top: -300px;
   }
 
   .form-legend {
