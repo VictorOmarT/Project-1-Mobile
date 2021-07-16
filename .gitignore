@@ -1,4 +1,8 @@
 node_modules
+
 .hintrc
 settings.json
 package-lock.json
+
+.hintrc
+

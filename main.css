@@ -1,5 +1,21 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
 body {
   background: #1c1a19;
+}
+
+.custom-font {
+  font-family: Inter, Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0;
+  text-align: center;
 }
 
 .main-body {
@@ -198,7 +214,6 @@ a {
   width: 100%;
   margin: 0;
 }
-
 .msmsm {
   flex-direction: column;
 }
@@ -291,6 +306,7 @@ a {
   flex-direction: column;
   align-items: center;
   list-style: none;
+
   margin-left: -60px;
 }
 
@@ -472,4 +488,3 @@ a {
   .name-desk {
     display: none;
   }
-}
