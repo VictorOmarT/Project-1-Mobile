@@ -307,7 +307,8 @@ a {
   flex-direction: column;
   align-items: center;
   list-style: none;
-  margin-left: -60px;
+  /* margin-left: -60px; */
+  width: 648px;
 }
 
 @media (min-width: 1024px) {
@@ -401,7 +402,6 @@ a {
 
   .formersd {
     margin-top: 220px;
-    margin-left: -140px;
   }
 
   p {
@@ -468,8 +468,8 @@ a {
   }
 
   .achetwo {
-    width: 721px;
-    margin-left: -160px;
+    width: 455px;
+   /*  margin-left: -160px; */
   }
 
   input {
@@ -482,6 +482,14 @@ a {
     margin-bottom: 59px;
     margin-left: 40px;
     font-size: 30px;
+  }
+
+  .input-text-email {
+    width: 100%;
+  }
+
+  .textarea-message {
+    width: 100%;
   }
 }
 
