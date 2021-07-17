@@ -528,3 +528,10 @@ a {
     display: none;
   }
 }
+
+@media (max-width: 768px) {
+  .name-desk {
+    display: none;
+  }
+}
+
