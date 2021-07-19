@@ -168,7 +168,7 @@ h6 {
 .laspart {
   align-items: center;
   background-image: url("pictures/end.png");
-  background-position: 240px 270px;
+  background-position: 100% 80%;
   background-repeat: no-repeat;
   height: 570px;
   flex-direction: column;
@@ -302,6 +302,19 @@ a {
 .last-b:active {
   background-color: #e05304;
   color: #f4f1f0;
+}
+
+.coliisa {
+  flex-direction: column;
+  height: 604px;
+  justify-content: center;
+  justify-content: start;
+  margin: 20px auto;
+}
+
+.img-sicesj {
+  width: 18px;
+  height: 18px;
 }
 
 @media (min-width: 1024px) {
