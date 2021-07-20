@@ -304,6 +304,10 @@ a {
   color: #f4f1f0;
 }
 
+label {
+  display: none;
+}
+
 @media (min-width: 1024px) {
   header {
     height: 53px;
