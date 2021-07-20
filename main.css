@@ -299,13 +299,13 @@ a {
   border: 1px solid #f55800;
 }
 
+label {
+  display: none;
+}
+
 .last-b:active {
   background-color: #e05304;
   color: #f4f1f0;
-}
-
-label {
-  display: none;
 }
 
 @media (min-width: 1024px) {
