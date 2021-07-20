@@ -168,7 +168,7 @@ h6 {
 .laspart {
   align-items: center;
   background-image: url("pictures/end.png");
-  background-position: 240px 270px;
+  background-position: 100% 80%;
   background-repeat: no-repeat;
   height: 570px;
   flex-direction: column;
@@ -308,6 +308,24 @@ label {
   color: #f4f1f0;
 }
 
+
+label {
+  display: none;
+  
+.coliisa {
+  flex-direction: column;
+  height: 604px;
+  justify-content: center;
+  justify-content: start;
+  margin: 20px auto;
+}
+
+.img-sicesj {
+  width: 18px;
+  height: 18px;
+
+}
+
 @media (min-width: 1024px) {
   header {
     height: 53px;
@@ -375,7 +393,7 @@ label {
   }
 
   .first-box1 {
-    background-image: url("/pictures/ImgPlaceholder44.png");
+    background-image: url("pictures/ImgPlaceholder44.png");
     background-repeat: no-repeat;
     margin-left: 5px;
     margin-right: 5px;
@@ -418,7 +436,7 @@ label {
   }
 
   .box-type-3 {
-    background-image: url("/pictures/ImgPlaceholder55.png");
+    background-image: url("pictures/ImgPlaceholder55.png");
     background-repeat: no-repeat;
     margin-bottom: 130px;
   }
