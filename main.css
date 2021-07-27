@@ -31,10 +31,24 @@ header {
   background: #3c3a39;
 }
 
-.Menu-mobile {
+.Menu-mobile-after {
   display: none;
 }
 
+.Menu-mobile {
+  display: block;
+}
+
+.Items-display {
+  display: none;
+  
+}
+.Items-display li  {
+  list-style: none;
+  padding: 20px;
+  border-bottom: 1px solid #6f6c6b;
+  Width: 327px;
+}
 
 .Menu-mobile-js {
   display: block;
@@ -48,7 +62,7 @@ header {
 }
 
 .name {
-  position: static;
+  /* position: static; */
   text-decoration: none;
   width: 77px;
   height: 24px;
