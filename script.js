@@ -4,10 +4,14 @@ const sanw = document.querySelector(".only-mob");
 const myname = document.querySelector(".name");
 
 crossbtn.addEventListener("click" , function(){
-    menuMob.classList.toggle("Menu-mobile")
+    menuMob.classList.remove("Menu-mobile-js")
+    myname.classList.remove("Menu-mobile-after")
+    sanw.classList.remove("Menu-mobile-after")
+
 });
 
 sanw.addEventListener("click", function(){
-    menuMob.classList.toggle("Menu-mobile-js")
-    myname.classList.toggle("Menu-mobile-after")
+    menuMob.classList.add("Menu-mobile-js")
+    myname.classList.add("Menu-mobile-after")
+    sanw.classList.add("Menu-mobile-after")
 });
