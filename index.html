@@ -13,10 +13,18 @@
       <div class="left-side-head">
         <a href="#" class="name">Victor Toraño</a>
       </div>
-      <div class="righ-side-head">
-        <a href="#" class="name-desk">Porfolio</a>
-        <a href="#" class="name-desk">About</a>
-        <a href="#" class="name-desk">Contact</a>
+      <div class="Items-display">
+        <img src="/pictures/cross.svg" class="cross" alt="">
+        <ul>
+          <li><a href="#Portfolio">Porfolio</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#Contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="righ-side-head Menu-mobile">
+        <a href="#" class="name-desk items-mobile">Porfolio</a>
+        <a href="#" class="name-desk items-mobile">About</a>
+        <a href="#" class="name-desk items-mobile">Contact</a>
         <img src="pictures/Icon-Mail.png" class="name-desk" alt="" />
         <img src="pictures/Enabled.png" class="only-mob" alt="menu" />
       </div>
@@ -43,7 +51,7 @@
     </section>
     <section class="second-main">
       <div class="two-row marg-lefts">
-        <h4>My Recent Works</h4>
+        <h4 id="Portfolio">My Recent Works</h4>
         <img src="pictures/line.png" class="line" alt="" />
       </div>
       <div class="d-flex colum-call">
@@ -177,7 +185,7 @@
     </section>
     <section class="laspart d-flex">
       <div class="Goinlef">
-        <h1 class="en">About me</h1>
+        <h1 id="About" class="en">About me</h1>
         <p class="texf en">
           Hello I’m a software developer! I can help you build a <br />
           product , feature or website Look through some of my work <br />
@@ -233,7 +241,7 @@
     <section class="form d-flex">
       <form class="d-flex msmsm">
         <div class="achetwo">
-          <h2 class="custom-font form-legend">
+          <h2 id="Contact" class="custom-font form-legend">
             I'm always interested <br />
             in hearing about new <br />
             projects, so if you'd <br />
@@ -301,5 +309,6 @@
         <li><img src="pictures/Vector03.svg" class="icon-alin" alt="" /></li>
       </ul>
     </section>
+    <script src = "script.js"> </script>
   </body>
 </html>
