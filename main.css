@@ -401,6 +401,7 @@ h2 {
 .multi-post-icon {
   margin-left: -40px;
   margin-top: -50px;
+  margin-top: 15px;
 }
 
 .multi-post-img {
@@ -429,6 +430,10 @@ h2 {
   background-color: #ff6b00;
   font-size: 17px;
   color: #fff;
+}
+
+.multi-post-button {
+  margin-top: 15px;
 }
 
 @media (min-width: 1024px) {
