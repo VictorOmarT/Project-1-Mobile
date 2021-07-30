@@ -39,9 +39,9 @@ const porfolioCard = [
     bootstag: './pictures/Tag(2).png',
     rubutag: './pictures/Tag(3).png',
     button: 'pictures/Enable.png',
-    slash: "#",
+    slash: '#',
 
-  }, 
+  },
 ];
 
 porfolioCard.forEach((project) => {
@@ -50,66 +50,67 @@ porfolioCard.forEach((project) => {
   divcontainer.classList.add('colum-call');
   divcontainer.classList.add('d-flex');
 
-  //main img
+  // main img
   const mainImgcontain = document.createElement('div');
   mainImgcontain.classList.add('mainimgdiv');
   const mainImg = document.createElement('img');
   mainImg.classList.add('big-imhs, marg-lefts');
   mainImg.classList.add('marg-lefts');
-  mainImg.setAttribute('src',project.mainImg);
-  mainImg.setAttribute('alt',project.imgAlt);
+  mainImg.setAttribute('src', project.mainImg);
+  mainImg.setAttribute('alt', project.imgAlt);
   mainImgcontain.append(mainImg);
 
-  //Text Container
+  // Text Container
   const textcontain = document.createElement('div');
   textcontain.classList.add('textcontatins');
   const name = document.createElement('h5');
   const paragra = document.createElement('p');
   paragra.classList.add('par-black');
   textcontain.append(name);
-  textcontain.append(paragra)
+  textcontain.append(paragra);
 
   // links
   const Linkdiv = document.createElement('div');
-  linkdiv.append(ulLink);
-
+  Linkdiv.classList.add('textcontatins');
   const ulLink = document.createElement('ul');
   ulLink.classList.add('linksd');
+
+  const csstag1 = document.createElement('li');
+  const csstag = document.createElement('img');
+  csstag.setAttribute('src', project.csstag);
+  csstag.setAttribute('alt', project.imgAlt);
+  csstag1.append(csstag);
+
+  const csstag2 = document.createElement('li');
+  const htmltag = document.createElement('img');
+  htmltag.setAttribute('src', project.htmltag);
+  htmltag.setAttribute('alt', project.htmltag);
+  csstag2.append(htmltag);
+
+  const csstag3 = document.createElement('li');
+  const bootstag = document.createElement('img');
+  bootstag.setAttribute('src', project.bootstag);
+  bootstag.setAttribute('alt', project.bootstag);
+  csstag3.append(bootstag);
+
+  const csstag4 = document.createElement('li');
+  const rubutag = document.createElement('img');
+  rubutag.setAttribute('src', project.rubutag);
+  rubutag.setAttribute('alt', project.rubutag);
+  csstag4.append(rubutag);
+
+  const button = document.createElement('a');
+  button.setAttribute('href', project.slash);
+  button.setAttribute('src', project.button);
+  button.setAttribute('alt', project.button);
+  button.classList.add('fiveg');
+
+  Linkdiv.append(ulLink);
   ulLink.append(csstag1);
   ulLink.append(csstag2);
   ulLink.append(csstag3);
   ulLink.append(csstag4);
   ulLink.append(button);
-
-  const csstag1 = document.createElement('li');
-  const csstag = document.createElement('img');
-  csstag.setAttribute('src', project.csstag);
-  csstag.setAttribute('alt',project.imgAlt);
-  csstag1.append(csstag);
-
-  const csstag2 = document.createElement('li');
-  const htmltag = document.createElement('img');
-  htmltag.setAttribute('src',project.htmltag);
-  htmltag.setAttribute('alt',project.htmltag);
-  csstag2.append(htmltag);
-
-  const csstag3 = document.createElement('li');
-  const bootstag = document.createElement('img');
-  bootstag.setAttribute('src',project.bootstag);
-  bootstag.setAttribute('alt',project.bootstag);
-  csstag3.append(bootstag);
-
-  const csstag4 = document.createElement('li');
-  const rubutag = document.createElement('img');
-  rubutag.setAttribute('src',project.rubutag);
-  rubutag.setAttribute('alt',project.rubutag);
-  csstag4.append(rubutag);
-
-  const button = document.createElement('a');
-  button.setAttribute('href',project.slash);
-  button.setAttribute('src',project.button);
-  button.setAttribute('alt',project.button);
-  button.classList.add('fiveg');
 
   divcontainer.append(mainImgcontain);
   divcontainer.append(textcontain);
