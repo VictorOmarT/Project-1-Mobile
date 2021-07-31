@@ -14,7 +14,7 @@
         <a href="#" class="name">Victor Toraño</a>
       </div>
       <div class="Items-display">
-        <img src="/pictures/cross.svg" class="cross" alt="" />
+        <img src="pictures/cross.svg" class="cross" alt="" />
         <ul>
           <li><a href="#Portfolio">Porfolio</a></li>
           <li><a href="#About">About</a></li>
@@ -282,8 +282,8 @@
         </div>
       </div>
     </section>
-    <section class="form d-flex">
-      <form class="d-flex msmsm">
+    <section class="d-flex">
+      <div class="d-flex msmsm form">
         <div class="achetwo">
           <h2 id="Contact" class="custom-font form-legend">
             I'm always interested <br />
@@ -293,34 +293,39 @@
             get in touch.
           </h2>
         </div>
-        <div class="formersd">
-          <ul class="d-flex-colum">
+        <form id="form" class="form formersd">
+          <ul class="d-flex-colum form">
             <li class="li-with">
               <label for="name"></label>
               <input
                 class="input-text-email custom-font"
                 type="text"
                 id="name"
+                name="name"
                 maxlength="30"
                 placeholder="Full Name"
                 required
               />
+              <small class="validation"></small>
             </li>
+            <li id="error"></li>
             <li class="li-with">
               <label for="mail"></label>
               <input
+                name="user_email"
                 class="input-text-email custom-font"
                 type="email"
                 id="mail"
                 placeholder="Email Adress"
-                required
+                
               />
+              <small class="validation"></small>
             </li>
             <li class="text-area-container li-with">
               <label for="msg"></label>
               <textarea
                 class="textarea-message custom-font"
-                name="message"
+                name="msg"
                 id="msg"
                 maxlength="500"
                 cols="30"
@@ -336,13 +341,13 @@
               />
             </li>
             <li>
-              <button class="last-b custom-font" type="submit">
+              <button class="last-b custom-font"  type="submit">
                 Get in touch
               </button>
             </li>
           </ul>
-        </div>
-      </form>
+        </form>
+      </div>
     </section>
     <section class="d-flex desktopboo">
       <ul class="icons icons-rows">
