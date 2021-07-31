@@ -29,7 +29,7 @@ crossmenu.addEventListener('click', () => {
 
 // Form Validation L
 const form = document.getElementById('form');
-const emailForm = 'Please enter a valid email address';
+const emailForm = 'ERROR enter a valid email address';
 
 const hasValue = (input) => {
   if (input === '') {
