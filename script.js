@@ -27,6 +27,51 @@ crossmenu.addEventListener('click', () => {
   multipost.classList.add('Menu-mobile-after');
 });
 
+// Form Validation L
+const form = document.getElementById('form');
+const emailForm = 'ERROR enter a valid email address';
+
+const hasValue = (input) => {
+  if (input === '') {
+    return false;
+  }
+  return true;
+};
+
+const showMessage = (input, message) => {
+  const msg = input.parentNode.querySelector('small');
+  msg.innerText = message;
+};
+
+const validateEmail = (input, emailForm) => {
+  const value = input.value.trim();
+  if (!hasValue(input.value)) {
+    return false;
+  }
+  const lowerCaseValidator = /[A-Z]/g;
+  if (value.match(lowerCaseValidator)) {
+    input.value = value.toLowerCase();
+    return showMessage(input, emailForm);
+  }
+  return true;
+};
+
+const errorMessage = () => {
+  const allmessages = document.querySelectorAll('.validation');
+  if (allmessages.length > 0) {
+    for (let i = 0; i < allmessages.length; i += 1) { allmessages[i].innerHTML = ''; }
+  }
+};
+
+form.addEventListener('submit', (event) => {
+  const emailSubmit = form.elements.user_email;
+  const validEmail = validateEmail(emailSubmit, emailForm);
+  if (validEmail) {
+    errorMessage();
+  }
+  event.preventDefault();
+});
+
 const porfolioCardlast = document.querySelector('#portfoliocard');
 
 const porfolioCard = [
@@ -54,7 +99,7 @@ porfolioCard.forEach((project) => {
   const mainImgcontain = document.createElement('div');
   mainImgcontain.classList.add('mainimgdiv');
   const mainImg = document.createElement('img');
-  mainImg.classList.add('big-imhs, marg-lefts');
+  mainImg.classList.add('big-imhs,marg-lefts');
   mainImg.classList.add('marg-lefts');
   mainImg.setAttribute('src', project.mainImg);
   mainImg.setAttribute('alt', project.imgAlt);
